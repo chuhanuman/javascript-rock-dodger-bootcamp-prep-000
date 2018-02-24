@@ -65,7 +65,7 @@ function endGame() {
   for(i=0;i<ROCKS;i++) {
     i.remove();
   }
-  
+  document.removeEventListener('keydown', moveDodger)
   alert("YOU LOSE!");
 }
 
