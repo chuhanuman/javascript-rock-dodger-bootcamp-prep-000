@@ -86,9 +86,9 @@ function moveDodgerLeft() {
 
 function moveDodgerRight() {
   window.requestAnimationFrame(function() {
-  var right = positionToInteger(DODGER.style.left)+40;
-  if(right < 400) {
-    DODGER.style.left = `${right + 4}px`;
+  var left = positionToInteger(DODGER.style.left);
+  if(left < 360) {
+    DODGER.style.left = `${left + 4}px`;
   }});
 }
 
