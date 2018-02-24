@@ -65,6 +65,7 @@ function endGame() {
   for(i=0;i<ROCKS;i++) {
     i.remove();
   }
+  
   alert("YOU LOSE!");
 }
 
